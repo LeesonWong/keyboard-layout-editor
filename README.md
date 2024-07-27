@@ -39,7 +39,7 @@ Required Tools:
 * Grunt: ```npm install -g grunt-cli```
 * Protractor: ```npm install -g protractor```
 * Jasmine: ```npm install -g jasmine```
-* Uglifyjs: ```npm install -g uglifyjs```
+* Uglifyjs: ```npm install -g uglify-js```
 * Stylus: ```npm install -g stylus```
 * Jison: ```npm install -g jison```
 * Git-utils: ```npm install git-utils -g ```
@@ -67,3 +67,8 @@ Notes:
 * However, if you want to be able to log in to GitHub via OAuth (without
   hacking up the code and registering your own OAuth application), you will
   need to put the server at: http://localhost:8080/
+
+以上过程可以正常执行完成，但是最后一步如何把产物放到服务器上？
+
+layout完成之后，需要将json描述的布局文件交给以下网站处理
+http://builder.swillkb.com/
